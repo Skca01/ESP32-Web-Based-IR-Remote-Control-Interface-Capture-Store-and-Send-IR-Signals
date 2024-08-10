@@ -71,13 +71,13 @@ void handleRoot() {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ESP32 IR Remote</title>
+    <title>ESP32 Web-Based IR Remote Control Interface: Capture, Store, and Send IR Signals</title>
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>ESP32 IR Remote</h1>
+            <h1>ESP32 Web-Based IR Remote Control Interface: Capture, Store, and Send IR Signals</h1>
         </header>
         <main>
             <section class="instructions">
@@ -120,7 +120,7 @@ void handleRoot() {
             </section>
         </main>
         <footer>
-            <p>&copy; 2024 ESP32 IR Remote. Created by Kent Carlo Amante</p>
+            <p>&copy; 2024 ESP32 Web-Based IR Remote Control Interface: Capture, Store, and Send IR Signals. Created by Kent Carlo Amante</p>
         </footer>
     </div>
 </body>
