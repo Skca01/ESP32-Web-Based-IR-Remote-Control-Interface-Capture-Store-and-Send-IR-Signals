@@ -1,4 +1,4 @@
-# ESP32 IR Remote Web Interface
+# ESP32 Web-Based IR Remote Control Interface: Capture, Store, and Send IR Signals
 
 ## Overview
 This project uses an ESP32 to create a web server that allows you to capture, store, and send IR (infrared) signals using a remote control. The web interface is designed to be responsive and professional, fitting well on any device. You can capture new IR signals, view and manage saved signals, and send commands directly from the web interface.
