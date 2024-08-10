@@ -11,9 +11,28 @@ This project uses an ESP32 to create a web server that allows you to capture, st
 - **Persistent Storage**: Uses SPIFFS to store IR signals, ensuring data is preserved across power cycles.
 - **User-Friendly Interface**: Includes on-screen instructions and intuitive controls.
 
+## Capabilities and Usage
+
+### Capabilities
+- **Capture IR Signals**: The system can capture IR signals from standard remote controls and store them in the ESP32's file system using SPIFFS.
+- **Manage IR Signals**: Users can view, name, delete, and manage captured IR signals through a web-based interface.
+- **Send IR Signals**: The ESP32 can re-transmit stored IR signals, allowing it to function as a programmable IR remote.
+- **Web Interface**: The project includes a user-friendly web interface that can be accessed through any device connected to the ESP32's Wi-Fi network. The interface allows users to interact with the system without the need for additional software.
+
+### Ethical Reminders
+While this project offers powerful capabilities, it is crucial to use them responsibly. Here are some ethical considerations to keep in mind:
+
+- **Respect Privacy**: Only capture and retransmit IR signals from devices you own or have explicit permission to control. Unauthorized use of this project to interfere with or control devices owned by others is unethical and potentially illegal.
+- **Fair Use**: Do not use this project to interfere with other people's IR-controlled devices in public or shared spaces. Always respect the boundaries and personal space of others.
+- **Compliance with Local Laws**: Ensure that your usage of this project complies with local laws and regulations, especially in contexts where IR signals might interfere with public or commercial devices.
+
+### Non-Ethical Usage Warnings
+- **Avoid Malicious Intent**: The project should not be used to disrupt or control devices in unauthorized settings, such as public displays, security systems, or other sensitive equipment.
+- **Signal Jamming**: Be cautious not to inadvertently cause signal interference in environments where multiple IR-controlled devices are in operation. Misuse of this capability can lead to unintended consequences, including device malfunctions.
+
 ## Components
 - **ESP32 Development Board**: Used for handling IR signals and hosting the web server.
-- **IR Receiver Modole or TSOP38238 IR receiver**: Captures IR signals from remote controls.
+- **IR Receiver Module or TSOP38238 IR receiver**: Captures IR signals from remote controls.
 - **IR TRANSMITTER LED**: Sends IR commands to devices.
 - **Resistor**: Used with the IR TRANSMITTER LED.
 - **Breadboard and Jumper Wires**: For connecting the components.
